@@ -1,0 +1,109 @@
+:root{
+	--azul:  #274CA2;
+	--preto:  #141414;
+}
+
+/*FONTES CUSTOMIZADAS*/
+@font-face{
+	font-family: 'stone';
+	src:  url('../fontes/stone.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'neuropol';
+	src:  url('../fontes/neuropol.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'vcroso';
+	src:  url('../fontes/vcroso.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*RESET*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+a{
+	color: #fff;
+}
+
+body{
+	background: var(--preto);  /*url(../imagens/fundo.jpg)*/;
+	font-family: 'vcroso', "Trebuchet MS", "Helvetica", sans-serif;
+	padding: 20px 15px 15px 10px;
+}
+
+#container{
+	padding: 0 50px 0 50px;
+}
+
+/*HEADER*/
+
+header{
+	text-align: center;
+}
+
+header h2{
+	color: #fff;
+	font-family: 'neuropol';
+	font-size: 30px;
+	/*border-bottom: 1px solid rgba(254, 254, 253, 1);*/
+	display: block;	
+
+}
+
+header nav ul{
+	display: inline-flex;
+	padding: 25px 0;
+}
+
+header nav ul li{
+	padding-left: 15px;	
+}
+
+header nav a:hover{
+	background: rgba(240, 238, 235, 0.06);
+	padding: 15px;
+	border-bottom: 1px solid #B26822;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+/*CLASSES DE DESIGN*/
+
+.laranja{
+	color: #B26822;
+}
+
+/*GIF*/
+
+#capa{
+
+	height: 200px;
+	align-items: center;
+}
+
+#capa img{
+	width: 100%;
+}
+
+/*VIDEOS*/
+iframe{
+	width: 400;
+	height: 177;
+}
+
+/*CARROSEL*/
+
+
